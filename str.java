@@ -13,13 +13,13 @@ public class str {
         System.out.println(index1);
         String theString = "is this good or is this bad?";
         String substring = "is"; 
-        //index of takes another parameter that starts from that
+        //'indexof' takes another parameter that starts from that
         int index2 = theString.indexOf(substring);
         while(index2 != -1) {
             System.out.println(index2);
             index2 = theString.indexOf(substring, index2 + 1);
         }
-        // last index method 
+        //'lastindex' method 
         String sd = "alie man kojast ? ";
         System.out.println(sd.lastIndexOf("?"));        
         // comparing strings 
@@ -48,6 +48,6 @@ public class str {
         String text    = "  And he ran across the field   ";
         String trimmed = text.trim();
         System.out.println(trimmed); 
-        // soon will updated ! i will back 
+        // soon will updated ! i will back! 
 }        
 }
